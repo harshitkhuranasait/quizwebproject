@@ -25,7 +25,7 @@ export default function Questions({setQuizstarted,listofquestions}) {
 <span
   className="font-semibold text-xl mt-12"
   dangerouslySetInnerHTML={{
-    __html: `Q${currentquestion + 1}) ${listofquestions[currentquestion].question} ${currentquestion == 0 ? `....First one is Easy, Select the one with 2 similar options` : ``}`,
+    __html: `Q${currentquestion + 1}) ${listofquestions[currentquestion].question}`,
   }}
 />
     <div className="flex flex-col gap-1 items-center h-full justify-evenly ">
